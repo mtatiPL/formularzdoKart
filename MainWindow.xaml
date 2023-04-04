@@ -1,0 +1,16 @@
+﻿<Window x:Class="kartkowka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kartkowka"
+        mc:Ignorable="d"
+        Title="Rejestracja" Height="450" Width="800">
+    <DockPanel>
+        <TextBlock DockPanel.Dock="Top" FontSize="28">Podaj imię: <TextBox Width="300" x:Name="im"></TextBox></TextBlock>
+        <TextBlock DockPanel.Dock="Top" FontSize="28">Podaj nazwisko: <TextBox Width="300" x:Name="naz"></TextBox></TextBlock>
+        <TextBlock DockPanel.Dock="Top" FontSize="28">Podaj hasło: <TextBox Width="300" x:Name="haslo"></TextBox></TextBlock>
+        <TextBlock DockPanel.Dock="Top" FontSize="28">Powtórz hasło: <TextBox Width="300" x:Name="powHaslo"></TextBox></TextBlock>
+        <Button DockPanel.Dock="Top" Width="200" Height="50" x:Name="btn" Click="Generuj">Wygeneruj konto</Button>
+    </DockPanel>
+</Window>
